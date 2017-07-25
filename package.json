@@ -1,0 +1,27 @@
+{
+  "name": "vue-starter",
+  "version": "1.0.0",
+  "description": "Vue project starter based on Webpack starter template, includes Node.js server",
+  "main": "server/app.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mborders/vue-starter.git"
+  },
+  "author": "Matthew Borders",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mborders/vue-starter/issues"
+  },
+  "homepage": "https://github.com/mborders/vue-starter#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cookie-parser": "^1.4.3",
+    "csurf": "^1.9.0",
+    "express": "^4.15.3",
+    "helmet": "^3.8.0",
+    "request": "^2.81.0"
+  }
+}
